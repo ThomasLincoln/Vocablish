@@ -1,6 +1,6 @@
 .bg-purple{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: rgb(62,1,131);
     background: linear-gradient(150deg, rgba(62,1,131,1) 0%, rgba(100,18,121,1) 56%, rgba(120,26,138,1) 100%);
 
@@ -20,7 +20,7 @@
     margin: 0pc;
     padding: 0pc;
     font-size: 455%;
-    width: 150%;
+    width: 100%;
 
 }
 
@@ -28,15 +28,51 @@
 
     background: rgb(68, 15, 129);
     border:none;
-    width: 120%;
-    height: 130%;
+    padding: 1pc 3pc;
+    border-radius: 1pc;
     
 }
 
 
 .fs-1{
-    margin-top: -90%;
     margin-bottom: 100%;
     font-weight: 600;
 }
 
+
+
+/*
+ *media querys 
+*/
+
+@media screen and (max-width: 400px) {
+    .size-1{
+        margin-top: 10pc;
+        font-size: 4pc;
+    }
+    .size-2{
+        font-size: 3pc; 
+    }
+    .bg-purple-btn{
+        padding: 0.5pc 1.5pc;
+        
+    }
+  }
+
+@media screen and (width: 390px) {
+    .size-1{
+        margin-top: 15pc;
+    }
+  }
+
+@media screen and (width: 393px) {
+    .size-1{
+        margin-top: 16pc;
+    }
+  }
+
+  @media screen and (width: 393px) {
+    .size-1{
+        margin-top: 16pc;
+    }
+  }

@@ -1,0 +1,42 @@
+.bg-purple{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(62,1,131);
+    background: linear-gradient(150deg, rgba(62,1,131,1) 0%, rgba(100,18,121,1) 56%, rgba(120,26,138,1) 100%);
+
+}
+
+.size-1{
+
+    font-size: 700%;
+    margin: 0pc;
+    padding: 0pc;
+
+    font-weight: 500;
+
+}
+
+.size-2{
+    margin: 0pc;
+    padding: 0pc;
+    font-size: 455%;
+    width: 150%;
+
+}
+
+.bg-purple-btn{
+
+    background: rgb(68, 15, 129);
+    border:none;
+    width: 120%;
+    height: 130%;
+    
+}
+
+
+.fs-1{
+    margin-top: -90%;
+    margin-bottom: 100%;
+    font-weight: 600;
+}
+

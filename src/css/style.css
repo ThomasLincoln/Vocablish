@@ -9,8 +9,7 @@
 .size-1{
 
     font-size: 700%;
-    margin: 0pc;
-    padding: 0pc;
+    margin-left: 17%;
 
     font-weight: 500;
 
@@ -19,8 +18,8 @@
 .size-2{
     margin: 0pc;
     padding: 0pc;
-    font-size: 455%;
-    width: 100%;
+    font-size: 400%;
+    width: 200%;
 
 }
 
@@ -51,13 +50,20 @@
     .size-1{
         margin-top: 10pc;
         font-size: 4pc;
+        margin-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .size-2{
-        font-size: 3pc; 
+        font-size: 2pc;
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
     }
     .bg-purple-btn{
         padding: 0.5pc 1.5pc;
-        
+        margin-left: auto;
+        margin-right: auto;
     }
     .fs-1{
     /* font-size: 140%; */
@@ -71,6 +77,11 @@
     .size-1{
         margin-top: 14pc;
     }
+    .size-2{
+        width: 80%; 
+        margin-left: auto;
+        margin-right: auto;
+    }
   }
 
 @media screen and (width: 393px) {
@@ -79,8 +90,7 @@
     }
   }
 
-  @media screen and (width: 393px) {
+  @media screen and (min-width: 1400px) {
     .size-1{
-        margin-top: 16pc;
     }
   }

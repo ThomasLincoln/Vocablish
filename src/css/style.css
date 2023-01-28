@@ -37,6 +37,8 @@
 .fs-1{
     margin-bottom: 100%;
     font-weight: 600;
+    font-size: 300% !important;
+    margin-left: -10%;
 }
 
 
@@ -57,11 +59,17 @@
         padding: 0.5pc 1.5pc;
         
     }
+    .fs-1{
+    font-size: 100%;
+    margin-left: 0pc;
+    margin-bottom: 1pc;
+
+    }
   }
 
 @media screen and (width: 390px) {
     .size-1{
-        margin-top: 15pc;
+        margin-top: 14pc;
     }
   }
 

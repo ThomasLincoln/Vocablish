@@ -42,6 +42,16 @@
 
 
 
+/* 
+  * hover
+*/
+
+image:hover image{
+  transform: scale(2,2);
+
+}
+
+
 /*
  *media querys 
 */
@@ -89,3 +99,9 @@
         margin-top: 16pc;
     }
   }
+
+
+
+.teste:hover{
+  color: red;
+}
